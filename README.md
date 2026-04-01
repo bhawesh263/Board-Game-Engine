@@ -10,17 +10,32 @@ A simple race-to-the-finish board game simulation for 2-4 players built in Pytho
 
 ## How to play
 First, make sure you install the dependencies:
+for mac users
 ```bash
 pip3 install -r requirements.txt
 ```
+for windows users
+```bash
+pip install -r requirements.txt
+```
 
 Then, just run the main file:
+for mac users   
 ```bash
 python3 main.py
+```
+for windows users
+```bash
+python main.py
 ```
 
 ## Running the tests
 If you want to run the unit tests, just use pytest:
+for mac users
 ```bash
 python3 -m pytest tests/
+```
+for windows users 
+```bash
+python -m pytest tests/
 ```
